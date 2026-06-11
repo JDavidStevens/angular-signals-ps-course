@@ -1,6 +1,11 @@
 June 12, 2026
 
 - Update from Angular v20 to **Angular v22**.
+  - Change from the jasmine to the **vitest** unit test runner.
+  - Built-in Prettier integration by default.
+  - Update to TypeScript 6.
+  - Default to zoneless runtime (without zone.js)
+  - OnPush change detection by default
 - Module 1: No changes.
 - Module 2:
   - Clip 4: Angular changed the numbering on some of its error messages. The old error message was replaced with the new one @2:22.
