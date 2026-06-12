@@ -3,7 +3,6 @@ import { ReviewService } from '../review.service';
 
 @Component({
   selector: 'app-review-list',
-  imports: [],
   templateUrl: './review-list.html',
   styleUrl: './review-list.css'
 })
