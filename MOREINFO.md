@@ -10,9 +10,17 @@ Here are clickable links to more information about signals.
 
 [Zoneless Angular applications](https://youtu.be/MZ6s5EL7hKk)
 
+[Which Variables Should Be Angular Signals?](https://youtu.be/SUpH6w25TkU) - How do you decide which variables in your application should be signals?
+
 [Angular signal documentation](https://angular.dev/guide/signals) - Official Angular documentation on signals
 
 ## Module 2: Creating and Reading Signals
+
+[Building a signals-based application from scratch](https://youtu.be/LHgJP7MwTWY)
+
+[Working with Arrays in Angular Signals](https://youtu.be/wcn_8UnYBEw)
+
+[JavaScript Functions](https://youtu.be/j8oAbRAlcyE) - For more information on arrow functions in JavaScript
 
 [Angular's New Template Syntax: Control Flow](https://youtu.be/j9VTGRGyE-o) - For more information on the new template block syntax
 
@@ -22,21 +30,17 @@ Here are clickable links to more information about signals.
 
 [Automatically Migrate to Angular's New Control Flow Template Syntax](https://youtu.be/fkAFHMhjJsQ)
 
-[Building a signals-based application from scratch](https://youtu.be/LHgJP7MwTWY)
-
-[Working with Arrays in Angular Signals](https://youtu.be/wcn_8UnYBEw)
-
-[JavaScript Functions](https://youtu.be/j8oAbRAlcyE) - For more information on arrow functions in JavaScript
-
-[Angular guidance on signal `effect`](https://angular.dev/guide/signals#effects) - Official Angular documentation
+[Angular guidance on signal `effect`](https://angular.dev/guide/signals/effect#use-cases-for-effects) - Official Angular documentation
 
 [When Should We (NOT) Use a Signal `effect`](https://youtu.be/XWz8pxQWD8c) - Alternatives to using a signal `effect`
+
+[Angular Injection Context Explained](https://youtu.be/rsLW9znsp4E) - An effect runs within the injection context, explained in this video
 
 ## Module 3: Creating Reactive Signals with computed() and linkedSignal()
 
 [Building a shopping cart using `computed()` signals](https://youtu.be/kczkl2HndJg)
 
-[Additional `linkedSignal()` examples, including how to use the source property to specify multiple dependent signals](https://youtu.be/hFR3gVIY9gM)
+[First Look at Angular's new linkedSignal()](https://youtu.be/hFR3gVIY9gM) - Additional `linkedSignal()` examples, including how to use the source property to specify multiple dependent signals
 
 [Angular documentation for computed()](https://angular.dev/guide/signals#computed-signals)
 
@@ -44,17 +48,28 @@ Here are clickable links to more information about signals.
 
 ## Module 4: Retrieving Data into a Signal
 
-[For more information on the Resource API, start with this video on why we need a new API to retrieve data](https://youtu.be/YHZkiUbbeOg)
+[resource(), rxResource(), httpResource(): Why????](https://youtu.be/YHZkiUbbeOg) - For more information on the Resource API, start with this video on why we need a new API to retrieve data
 
-[resource and rxResource](https://youtu.be/_KyCmpMlVTc)
+[httpResource(): First Look](https://youtu.be/DefmIyp3Uho)
 
-[Additional error handling examples, specifically using rxResource](https://youtu.be/T7DPGCSmQes)
+[First Look at Angular's new resource() and rxResource()](https://youtu.be/_KyCmpMlVTc)
+
+[Return httpResource() from a Method](https://youtu.be/4VhiNK_9QIY) 
+
+[Signals in a Service or a Component?](https://youtu.be/xtxBMcEMcxU)
+
+[Error Handling with rxResource](https://youtu.be/T7DPGCSmQes) - Error handling example (this uses rxResource, but the techniques are similar for httpResource)
 
 ## Module 5: Retrieving Data Reactively
 
+[Debouncing with the Resource API](https://youtu.be/5A1I6rpe8UA) - When implementing a search feature, we don't want to issue an http request for each character the user types.
 
+[Stale data? Refresh it!](https://youtu.be/sY4ofhfQ_pk) - Using the Resource API refresh feature
 
+## Other
+[Angular Signal Forms: A First Look at the New Forms API](https://youtu.be/J0pVA4lJMso) - Signal Forms make form handling easier, cleaner, and way more fun.
 
+[Angular Signal Forms Without a Form: Model-First Validation Explained](https://youtu.be/VKjs9WujhCE) - Angular’s Signal Forms API supports model-first validation, even when there’s no form involved!
 
-
+[Angular DevTools 101: Debugging and Profiling Angular Applications](https://youtu.be/jdUCqbdc9CE) - How to add Angular DevTools to your browser and a guided tour of its core features
 
